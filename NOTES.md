@@ -33,4 +33,13 @@
 
 ## 配置と公開
 HTML/CSS/JSと画像のみ。相対パスでGitHub Pages対応。robots=noindex、viewport-fit=cover、safe-area-inset-bottom対応。電話はtel:0268758828、外部リンク記号なし。地図ボタンは依頼文指定URLのまま（HTMLでは&を&amp;として記述）。
-依頼文でGitHub Pagesが明示されているため、AGENTS.mdの標準Cloudflare Pagesより今回の指定を優先。指定保存先にファイルを配置し、GitHubではプライベートリポジトリを優先する。
+依頼文でGitHub Pagesが明示されているため、AGENTS.mdの標準Cloudflare Pagesより今回の指定を優先。当初は非公開リポジトリを作成したが、現在のプランでPagesを利用できない旨のAPI応答（422）が返ったため、ユーザーの明示承認を得て、このデモのみを含むリポジトリを公開設定へ変更した。
+
+## 検証結果
+- デスクトップと幅375pxの実ブラウザで表示確認。スマホの横方向のはみ出しなし、下部2ボタンの高さ48px。見出しの折り返しを調整。
+- 電話リンク7箇所はすべて `tel:0268758828`、外部リンク記号なし。実店舗への発信はしていない。
+- 写真3枚すべてにキャプションあり。未確認事項の表示、デモ表記、noindex、viewport-fit=coverを確認。
+- ナビのページ内移動とメニューの開閉を実操作で確認。Googleマップリンク3箇所は指定URLと一致。
+- GitHub Pagesビルド成功。公開URLをブラウザで開き、CSS・写真を含む375px表示とJavaScriptエラーなしを確認。
+- 公開URL：https://tetsu0619hira.github.io/soumoku-banri-nogami-ta-mise-dfpkre/
+- 指定保存先：C:\Users\user\Dropbox\24_Obsidian\work-repo\tasks\web事業\sites\soumoku-banri-nogami-ta-mise-dfpkre\
